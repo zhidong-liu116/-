@@ -1,5 +1,7 @@
+## 一共两种写法，左闭右闭，或者左闭右开
+
 ```py
-lass Solution:
+class Solution:
     solution 1: 左闭，右闭区间
     def search(self, nums: List[int], target: int) -> int:
         left = 0
