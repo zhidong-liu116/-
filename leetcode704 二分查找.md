@@ -1,4 +1,4 @@
-'''py
+```py
 lass Solution:
     solution 1: 左闭，右闭区间
     def search(self, nums: List[int], target: int) -> int:
@@ -13,7 +13,7 @@ lass Solution:
             else:
                 return middle
         return -1
-    
+
     # solution 2: 左闭，右开区间
     # def search(self, nums: List[int], target: int) -> int:
     #     left = 0
